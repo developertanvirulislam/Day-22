@@ -30,11 +30,6 @@ a.nav-link {
     padding: 30px 15px !important;
 }
 
-ul.navbar-nav.mx-auto.mb-2.mb-lg-0.float-right {
-    margin-left: 301px !important;
-}
-
-
 /* >>>>>>>>slider section>>>>>>>>> */
 
 .slider_text {
@@ -44,20 +39,16 @@ ul.navbar-nav.mx-auto.mb-2.mb-lg-0.float-right {
 .sliderbtn {
     background-color: #9490ff;
     color: #fff;
-    padding: 5px 10px;
+    padding: 7px 11px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 600;
 }
 
-
-/* .slider_img {
-    width: 439px;
-    left: -11px !important;
-    position: relative;
-} */
-
+.sliderbtn:hover{
+    color: #fff;
+}
 
 /* >>>>>>>>>>>about_section<<<<<<<<<< */
 
@@ -93,7 +84,16 @@ ul.navbar-nav.mx-auto.mb-2.mb-lg-0.float-right {
     padding: 45px;
     margin-top: 25px;
 }
-
+.our_app_text_h2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    z-index: 3;
+    margin: auto;
+    background: #f7f9ff;
+    padding: 22px 4px 22px 0px;
+    margin-bottom: 15px;
+}
 h5.mb-5.text-muted {
     font-size: 17px;
     margin-top: 40px;
